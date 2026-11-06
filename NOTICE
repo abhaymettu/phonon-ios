@@ -1,0 +1,16 @@
+Phonon for iPhone
+https://github.com/abhaymettu/phonon-ios
+
+This is a port of Phonon (https://github.com/Infatoshi/phonon) by Elliot Arledge and
+contributors, to iOS. It was written in the ios/ folder of Phonon on top of upstream commit
+2e9a5b724845b7b5881701f06c08d00deccc3e5f and is offered back to Phonon as a pull request.
+The refiner prompt, token budget, word-count guard and term restore in
+PhononCore/Sources/PhononCore/RefinerPrompt.swift are ported from Phonon's
+sidecar/polish_server.py.
+
+Phonon and this port are free software under the GNU General Public License v3.0 (LICENSE).
+
+The models this app downloads and the libraries it links keep their own licenses and notices,
+listed in LICENSES.md: Parakeet TDT 0.6B v2 (CC BY 4.0), the Phonon refiner 1.7B (LFM Open
+License v1.0, a modified version of LFM3-1.7B by Liquid AI, Inc.), FluidAudio (Apache 2.0)
+and llama.cpp (MIT).

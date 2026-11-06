@@ -1,14 +1,14 @@
 # Licenses
 
-Phonon for iPhone is part of Phonon (https://github.com/Infatoshi/phonon) and is distributed
-under the GNU General Public License v3.0, the same license as the rest of this repository
-(`LICENSE` at the repository root). Each component below keeps its own license; this file does
+Phonon for iPhone is a port of Phonon (https://github.com/Infatoshi/phonon) and is distributed
+under the GNU General Public License v3.0, the same license as Phonon (`LICENSE` at the
+repository root; credit in `NOTICE`). Each component below keeps its own license; this file does
 not relicense any of them.
 
 ## Phonon source (this app and keyboard)
-- License: GPL-3.0. Upstream: https://github.com/Infatoshi/phonon. The iOS port lives in `ios/`.
+- License: GPL-3.0. Upstream: https://github.com/Infatoshi/phonon. In Phonon's tree the port lives in `ios/`.
 - The refiner prompt, token budget, word-count guard and term restore are ported from
-  `sidecar/polish_server.py`.
+  Phonon's `sidecar/polish_server.py`.
 
 ## Parakeet TDT 0.6B v2 (speech recognition, downloaded at first run)
 - NVIDIA, converted to Core ML by FluidInference:
