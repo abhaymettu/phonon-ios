@@ -37,7 +37,8 @@ from 0.38 on the raw transcript to 0.07 after cleanup.
 This is a port of [Phonon](https://github.com/Infatoshi/phonon), Elliot Arledge's open-source
 dictation app for macOS, to iOS. It uses the same models, the same refiner prompt and the same
 output guard as the Mac app, and a test checks that the Swift port of the prompt and guard gives
-the same answers as the Mac app's Python.
+the same answers as the Mac app's Python. The port is also offered to Phonon itself as
+[Infatoshi/phonon#28](https://github.com/Infatoshi/phonon/pull/28).
 
 ## How it works
 
